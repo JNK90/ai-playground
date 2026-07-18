@@ -26,8 +26,8 @@
 *   [x] **Crucial Step:** Define these functions in a way that the LLM can "see" them (using JSON Schema or Docstrings).
 
 #### **Step 3: The "Brain" (Tool Calling Logic)**
-*   [ ] Implement **Native Tool Calling**: Instead of just text, instruct the LLM to output a `tool_call` object.
-*   [ ] Create the **Executor**: Write the logic that:
+*   [x] Implement **Native Tool Calling**: Instead of just text, instruct the LLM to output a `tool_call` object.
+*   [x] Create the **Executor**: Write the logic that:
     1.  Sees the LLM wants to use `calculate`.
     2.  Extracts the math expression from the LLM's request.
     3.  Runs the actual Python function.
