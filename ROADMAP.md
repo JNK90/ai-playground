@@ -21,9 +21,9 @@
 *   Code: `src/step1/chatbot.py`
 
 #### **Step 2: The "Hands" (Tool Definition)**
-*   [ ] Create a Python function `calculate(expression)` that takes a string and returns a math result.
-*   [ ] Create a Python function `search_wikipedia(query)` that returns a short summary of a topic.
-*   [ ] **Crucial Step:** Define these functions in a way that the LLM can "see" them (using JSON Schema or Docstrings).
+*   [x] Create a Python function `calculate(expression)` that takes a string and returns a math result.
+*   [x] Create a Python function `search_wikipedia(query)` that returns a short summary of a topic.
+*   [x] **Crucial Step:** Define these functions in a way that the LLM can "see" them (using JSON Schema or Docstrings).
 
 #### **Step 3: The "Brain" (Tool Calling Logic)**
 *   [ ] Implement **Native Tool Calling**: Instead of just text, instruct the LLM to output a `tool_call` object.
