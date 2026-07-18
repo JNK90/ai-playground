@@ -34,7 +34,7 @@
     4.  Captures the result.
 
 #### **Step 4: The "Loop" (The Agentic Core)**
-*   [ ] Implement the **ReAct Loop**:
+*   [x] Implement the **ReAct Loop**:
     *   **Input:** User asks a question.
     *   **Thought/Action:** LLM decides to use a tool.
     *   **Observation:** Your code runs the tool and gets a result.
@@ -42,8 +42,8 @@
     *   **Termination:** The loop continues until the LLM provides a "Final Answer" instead of a tool call.
 
 #### **Step 5: Testing "Agentic" Behavior**
-*   [ ] **Test Case A (Single Tool):** "What is 15 * 45?" (Should trigger `calculate`).
-*   [ ] **Test Case B (Multi-step Reasoning):** "Who is the president of France and what is their age multiplied by 2?"
+*   [x] **Test Case A (Single Tool):** "What is 15 * 45?" (Should trigger `calculate`).
+*   [x] **Test Case B (Multi-step Reasoning):** "Who is the president of France and what is their age multiplied by 2?"
     *   *Expected Flow:* Search Wiki for President $\rightarrow$ Find Age $\rightarrow$ Use Calculator on Age $\times$ 2 $\rightarrow$ Final Answer.
 
 ---
